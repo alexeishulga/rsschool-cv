@@ -28,9 +28,9 @@ I would like to become a front-end developer.
   </head>
   <body>
   <ul>
-      <li><a class="link_page" href="gh">dgdfgdfg</a></li>
-      <li><a class="link_page" href="gh">fdgdfgdfg</a></li>
-      <li><a class="link_page" href="dfg">dfgdfgdfg</a></li>
+      <li><a class="link_page" href="gh">a</a></li>
+      <li><a class="link_page" href="gh">b</a></li>
+      <li><a class="link_page" href="dfg">c</a></li>
   </ul>
   </body>
 </html>
