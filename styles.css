@@ -8,10 +8,14 @@
 }
 
 body {
+  background: url(https://m-dekor.by/catalog/4155/main.jpg) no-repeat;
+  background-size: cover; 
+}
+
+.wrapper {
   width: 80%;
   height: auto;
   margin: 50px auto;
-  background: whitesmoke;
 }
 
 .header {
@@ -43,7 +47,7 @@ body {
   padding-right: 450px;
 }
 .header .title h1,
-p {
+h3 {
   padding-left: 550px;
   padding-bottom: 50px;
   padding-top: 30px;
@@ -74,11 +78,19 @@ section .info {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: auto;
-  background: #232324;
+  background: #98989b;
   color: #866d6d;
   font-size: 20px;
+}
+
+.footer img {
+  width: 150px;
+  height: 150px;
+  margin: 50px 50px;
 }
 
 .footer p {
