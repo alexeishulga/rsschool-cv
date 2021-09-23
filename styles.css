@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: url(https://m-dekor.by/catalog/4155/main.jpg) no-repeat;
+  background-size: cover; 
+}
+
+.wrapper {
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.header {
+  background: #232324;
+  font-size: 45px;
+  line-height: 20px;
+  color: #866d6d;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  border: 5px solid white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .title {
+  margin: 0 auto;
+  padding-right: 450px;
+}
+.header .title h1,
+h3 {
+  padding-left: 550px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.header h1 {
+  margin-top: 50px;
+}
+section .info {
+  background: #866d6d;
+  color: #232324;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.info h2 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: #98989b;
+  color: #866d6d;
+  font-size: 20px;
+}
+
+.footer img {
+  width: 150px;
+  height: 150px;
+  margin: 50px 50px;
+}
+
+.footer p {
+  padding: 5px;
+}
